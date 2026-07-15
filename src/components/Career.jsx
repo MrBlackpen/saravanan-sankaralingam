@@ -1,13 +1,44 @@
 import "../styles/Career.css";
 import sentinix_logo from "../assets/sentinix_logo.webp";
 import intwhizz_logo from "../assets/intwhizz_logo.webp";
+import vyastics_logo from "../assets/vyastics_logo.webp";
 
 const experiences = [
+  {
+    company: "Vyastics",
+    logo: vyastics_logo,
+    role: "Jr.Consultant | Full Stack Engineer",
+    period: "Jun 2026 — Present",
+    location: "Chennai, Tamil Nadu",
+    summary:
+      "Working as a full-stack engineer on python django projects, contributing to custom product development and leading modules end-to-end. Involved in UI and API design, database schema design, external integrations, and production deployments.",
+    bullets: [
+      "Developed full-stack features using Python Django and React, owning modules end-to-end",
+      "Designed database schemas and transactional APIs optimized for performance and data integrity",
+      "Integrated external services (AWS Cloud Services) and third-party APIs",
+      "Implemented real-time order flows and notifications using WebSockets",
+      "Containerized services with Docker and introduced CI/CD pipelines for reliable deployments",
+      "Authored unit and integration tests; improved observability and production monitoring",
+      "Collaborated with product, QA, and operations and mentored junior developers",
+    ],
+    techStack: [
+      "Python",
+      "Django",
+      "FastAPI",
+      "React",
+      "MySQL",
+      "Git Version Control",
+      "Docker",
+      "CI/CD Pipelines",
+      "AWS Cloud Services",
+    ],
+    website: "https://vyastics.com/",
+  },
   {
     company: "IntWhizz Business Solutions",
     logo: intwhizz_logo,
     role: "Full stack Engineer",
-    period: "Aug 2025 — Present",
+    period: "Aug 2025 — Apr 2026",
     location : "Tirunelveli, Tamil Nadu",
     summary:
       "Worked across MERN and Java full-stack projects, contributing to and leading custom product development both as part of cross-functional teams and independently. Delivered end-to-end solutions — from UI and API design to deployment and production support — for business applications including billing systems and KOT solutions.",
